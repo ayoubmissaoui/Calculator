@@ -8,6 +8,7 @@ body {
     gap: 75px;
     font-family: 'Epilogue','Inter','Sora',sans-serif;
     height: 900px;
+   background-color: #F7FFF7;
 }
 
 #main-container {
@@ -98,4 +99,7 @@ button{
     width: 40px;
     margin: 5px;
 
+}
+p {
+    text-align: center;
 }
