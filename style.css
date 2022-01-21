@@ -85,6 +85,8 @@ button{
     border-radius: 15%;
     margin: 5px;
     background-color: #FFF9EC;
+    font-size: 22px;
+    font-weight: 700;
 }
 
 #equals button{
