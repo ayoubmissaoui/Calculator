@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap');
 
+html {
+    display: flex;
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 75px;
+    flex-grow: 1;
     font-family: 'Epilogue','Inter','Sora',sans-serif;
-    height: 900px;
-   background-color: #F7FFF7;
+    background-color: #F7FFF7;
 }
 
 #main-container {
@@ -100,6 +104,13 @@ button{
     margin: 5px;
 
 }
+
 p {
     text-align: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #1A535C;
+    font-size: 20px;
 }
