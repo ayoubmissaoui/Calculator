@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&family=Inter:wght@400;700&family=Sora:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    font-family: 'Epilogue','Inter','Sora',sans-serif;
+    height: 900px;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    box-sizing: content-box;
+    border: solid black 5px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #FFDCCC;
+}
+
+#display {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 380px;
+    height: 100px;
+    border: solid black 4px;
+    border-radius: 5%;
+}
+
+#result,
+#operations {
+    padding: 10px;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#buttons-container {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 240px;
+    width: 360px;
+    border: solid black 3px;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5%;
+}
+
+#display,
+#buttons-container {
+    background-color: white;
+}
+
+#operators-container {
+    display: flex;
+    flex-direction: column;
+/*    border: solid black 1px; */
+    width: 100px;
+}
+
+#numbers-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 240px;
+/*    border: solid black 1px; */
+}
+
+button{
+    width: 70px;
+    border-radius: 15%;
+    margin: 5px;
+    background-color: #FFF9EC;
+}
+
+#equals button{
+    height: 110px;
+    width: 90px;
+    margin: 5px;
+}
+
+#operators {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#operators button {
+    height: 50px;
+    width: 40px;
+    margin: 5px;
+
+}
