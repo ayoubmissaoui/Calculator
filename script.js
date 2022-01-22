@@ -5,19 +5,19 @@ let operrands = []
 
 // Basic math functions
 function add(a, b) {
-    return result.textContent = `Result is : ${a+b}`,
+    return result.textContent = `${a+b}`,
     operrands[n] = a+b 
 
 }
 
 function subtract(a, b) {
-    return result.textContent = `Result is : ${a-b}`,
+    return result.textContent = `${a-b}`,
     operrands[n] = a-b 
 
 }
 
 function multiply(a, b) {
-    return result.textContent = `Result is : ${a*b}`,
+    return result.textContent = `${a*b}`,
     operrands[n] = a*b 
 
 }
@@ -26,7 +26,7 @@ function divide(a, b) {
     if (b == 0) {
         return result.textContent = "Dividing by 0 isn't possible, please press on clear to reset the calculator!"
     } else {
-    return result.textContent = `Result is : ${a/b}`,
+    return result.textContent = `${a/b}`,
     operrands[n] = a/b 
 }
 }
